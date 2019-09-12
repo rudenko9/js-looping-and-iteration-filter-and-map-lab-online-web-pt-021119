@@ -8,3 +8,4 @@ function driverNamesWithRevenueOver(list, amount) {
 
   return driversWithRevenueOver.map(driver => driver.name);
 }
+
