@@ -2,8 +2,9 @@
 function driversWithRevenueOver(drivers, revenue) {
   for (const driver of drivers) {
     if (driver.revenue === revenue){
-      console.log(driver.)
+      console.log(driver.name)
     }
+    
   }
   
 }
