@@ -5,10 +5,9 @@ function driversWithRevenueOver(list, amount) {
 
 
 function driverNamesWithRevenueOver(list, amount) {
-  checkedlist = driversWithRevenueOver(list, amount); 
-  return checkedlist.map(driver => driver.name)
-  //return list.map(function(driver) {
-    //return driver['revenue'] > amount})
+  
+  return list.map(function(driver) {
+  return driver['revenue'] > amount})
     
 }
 
