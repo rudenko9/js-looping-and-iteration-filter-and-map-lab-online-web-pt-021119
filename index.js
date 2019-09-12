@@ -6,7 +6,8 @@ function driversWithRevenueOver(list, amount) {
 
 function driverNamesWithRevenueOver(list, amount) {
 
-  return driversWithRevenueOver.map(driver => driver.name);
+  return list.map(function(driver) {
+    return driver['revenue'] > amount});
 }
 
 function exactMatch(list, propertyMatch) {
