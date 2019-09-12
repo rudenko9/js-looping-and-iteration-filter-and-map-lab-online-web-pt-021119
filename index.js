@@ -1,10 +1,4 @@
 // Code your solution here:
-function driversWithRevenueOver(drivers, revenue) {
-  for (const driver of drivers) {
-    if (driver.revenue === revenue){
-      console.log(driver.name)
-    }
-    
-  }
-  
+function driversWithRevenueOver(list, amount) {
+ return list.filter(driver => driver['revenue'] > amount);
 }
