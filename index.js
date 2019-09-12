@@ -12,3 +12,4 @@ function driverNamesWithRevenueOver(list, amount) {
 function exactMatch(list, propertyMatch) {
   return list.filter(driver => driver[Object.keys(propertyMatch)[0]] === Object.values(propertyMatch)[0]);
 }
+
